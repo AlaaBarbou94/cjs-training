@@ -1,4 +1,4 @@
-const { I, navigationFragment, aboutPage, responsibleGamingPage } = inject();
+const { I, navigationFragment, aboutPage, responsibleGamingPage ,termsAndConditionsPage} = inject();
 
 module.exports = {
 

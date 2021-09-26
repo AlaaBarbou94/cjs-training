@@ -1,0 +1,46 @@
+Step 1
+Q1 - The test is useless when we have not a clear vision to the requirement or the specifications are not defined ,
+ than we can not be able to test a product within knowing the definition of done .
+
+Q2 - Testing can show that defects are present, but cannot prove that there are no defects. Testing reduces
+    the probability of undiscovered defects remaining in the software .
+
+Q3 - Acceptance testing,typically focuses on the behavior and capabilities of a whole system or product , than API unit
+ testing focuses on components focuses on components that are separately testable : for example in the bank system
+ tester can test the behaviour of transaction as user vision and simulate an action of debiting an account (UI Acceptance testing)
+and the other side he can test the transaction has debited by a Api unit test ib the code .
+
+Q4-The main benefit of ISTQB certification is to make tester able to have many basics knowledge in Software Quality and
+be able to integrate the word QA community by following the unit ISTQI testing process, but the istqb is not the unique
+source of the tester and we have many parts missing as advanced performance tests certification .
+
+Q5- Pros of agile daily in my team at iBanFirst :
+ -We have a daily meeting that make us up to date with each work of the scrum team.
+ -Good communication and fluidity in developing test cases with BDD and flexing bugs  .
+ -Clear and fluid release cycle .
+ Cos of agile daily in my team at iBanFirst :
+ - We don't respect deadline in some situation
+
+ Q6- Regression testing: is defined as a type of software testing to confirm that a recent program or code change
+ has not adversely affected existing features.Regression Testing is nothing but a full or partial or local selection
+ of already executed test cases which are re-executed to ensure existing functionalities work fine. regression test is
+ a good always a good candidate for automation.
+
+Q7 -
+ - Gitlab (experience in iBanFirst): se GitLab CI/CD to catch bugs and errors early in the development cycle. Ensure
+that all the code deployed to production complies with the code standards you established for your app but we have issue
+with Testing the merged state of a branch isn't likely before the actual merge happened
+
+- Azure Pipeline (experience in Tessan ) : Azure Pipelines automatically builds and tests code projects to make them
+available to others. It works with just about any language or project type. Azure Pipelines combines continuous
+ integration (CI) and continuous delivery (CD) to test and build your code and ship it to any target but his still in
+ exclusive use for Microsoft Product
+
+ Q8 - Gherkin is a syntax for BDD and Cucumber is a tool that supports Behaviour-Driven Development(BDD).
+Than the BDD (Behaviour-Driven Development)  is an approach that consists on defining the behavior of a feature through
+ examples in plain text. These examples are defined before the development starts and are used as acceptance criteria.
+  They are part of the definition of done
+
+ Q9 - 1- ID Locator is the safest "id ="
+      2- CSSSelector Locator #loginButton
+      3- XPath Locator //input[@id="login_btn

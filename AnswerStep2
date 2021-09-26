@@ -1,0 +1,4 @@
+Step 2
+Select ID from table
+Where State = 9 AND Country ='italy' AND hasMoney = 0 AND Available = 1
+order by RAND() limit 1
